@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe Webpage</title>
+    <link rel="stylesheet" href="pavan mern.css">
+</head>
+<body>
+    <div class="container">
+       <h1> <p style="font-family: 'Dancing Script', cursive;">
+            Food recipes
+          </p> </h1>
+          
+        <h5>click image for more info</h5>
+        <br/>
+        <div id="meal-container" class="meal-container"></div>
+        <div id="meal-popup" class="meal-popup hidden">
+            <div class="meal-popup-content">
+                <span class="close">&times;</span>
+                <img id="popup-image" src="" alt="">
+                <h2 id="popup-title"></h2>
+                <p><strong>Category:</strong> <span id="popup-category"></span></p>
+                <p><strong>Cuisine:</strong> <span id="popup-cuisine"></span></p>
+                <p id="popup-instructions"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="pavan mern.js"></script>
+</body>
+</html>
